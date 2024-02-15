@@ -11,21 +11,28 @@
     
 }
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
+  
 }
 button{
     font-family: inherit;
 }
+header{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+}
 nav{
     max-width: 1440px;
+    padding: 25px 160px 25px 160px;
     display: flex;
     justify-items: center;
     justify-content: space-between;
     align-items: center;
-    justify-items: center;
-    margin: 0 auto;
-    padding: 0 32px;
-    height: 90px;
+    margin: auto;
+  
     
 }
 nav img{
@@ -37,18 +44,24 @@ nav img{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 320px;
+   
+    gap: 200px;
     
 }
 .nav-list{
     display: flex;
-    gap: 20px;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    gap: 30px;
+   
 }
 .nav-btn{
     display: flex;
     
     gap: 20px;
-    border: 1px;
+
     border-radius: 5px;
 }
 .btn{
@@ -57,3 +70,109 @@ nav img{
     padding: 8px 10px 8px 10px;
    
 }
+.resume-button,
+.hireme-button {
+    background-color: white;
+    padding: 8px 10px 8px 10px;
+    border: 1px solid #C4C4C4;
+
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.resume-button:hover,
+.hireme-button:hover {
+    background-color: #b79e9e; /* Change as per your color scheme */
+}
+
+.hero-section{
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: 0 auto;
+    margin-top: 250px;
+    margin-bottom: 250px;
+}
+
+.intro {
+    text-align: center;
+    padding: 50px;
+}
+
+.intro h1 {
+    font-size: 72px; 
+    color: #1f1f1f;
+    line-height: 79.2px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    font-size: 24px; 
+    color: #1f1f1f;
+    line-height: 29.05px;
+    font-weight: 300;
+}
+.arrow{
+    text-align: center;
+    
+}
+.arrow img{
+    height: 32px;
+    width: 32px;
+}
+
+
+
+.about{
+    background: #F2F2F2;
+
+    margin-top: 50px;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px 255px 120px 225px;
+    margin: auto;
+    
+
+}
+.about h2{
+    font-size: 36px;
+    line-height: 43.57px;
+    font-weight: 400;
+    color: #1f1f1f;
+}
+.about-content{
+    display: flex;
+    align-items: center;
+    gap: 79px;
+    margin-top: 50px;
+}
+.about-content p{
+    max-width: 551px;
+    font-size: 16px;
+    line-height: 27.2px;
+    font-weight: 400;
+}
+.about-content img{
+    margin-top: -50px;
+    height: 300px;
+    width: 300px;
+}
+
+.about-me-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .line {
+    flex: 1;
+    height: 1px;
+    background-color: #000;
+  }
+  .about-me-text {
+    margin: 0 10px;
+    white-space: nowrap;
+  }
