@@ -8,7 +8,13 @@
     text-decoration: none;
 }
 :root{
-    
+    /* color */
+    --color-primary: #1f1f1f;
+
+    /* font-weight */
+    --font-weight-lg:400;
+
+
 }
 body{
     font-family: 'Inter', sans-serif;
@@ -82,7 +88,7 @@ nav img{
 }
 .resume-button:hover,
 .hireme-button:hover {
-    background-color: #b79e9e; /* Change as per your color scheme */
+    background-color: #f8eded;
 }
 
 .hero-section{
@@ -91,8 +97,8 @@ nav img{
     flex-direction: column;
     gap: 50px;
     margin: 0 auto;
-    margin-top: 250px;
-    margin-bottom: 250px;
+    margin-top: 450px;
+    margin-bottom: 450px;
 }
 
 .intro {
@@ -102,15 +108,15 @@ nav img{
 
 .intro h1 {
     font-size: 72px; 
-    color: #1f1f1f;
+    color: var(--color-primary);
     line-height: 79.2px;
-    font-weight: 400;
+    font-weight: var(--font-weight-lg);
     margin-bottom: 10px;
 }
 
 .intro p {
     font-size: 24px; 
-    color: #1f1f1f;
+    color: var(--color-primary);
     line-height: 29.05px;
     font-weight: 300;
 }
@@ -138,12 +144,7 @@ nav img{
     
 
 }
-.about h2{
-    font-size: 36px;
-    line-height: 43.57px;
-    font-weight: 400;
-    color: #1f1f1f;
-}
+
 .about-content{
     display: flex;
     align-items: center;
@@ -154,7 +155,7 @@ nav img{
     max-width: 551px;
     font-size: 16px;
     line-height: 27.2px;
-    font-weight: 400;
+    font-weight: var(--font-weight-lg);
 }
 .about-content img{
     margin-top: -50px;
@@ -163,16 +164,23 @@ nav img{
 }
 
 .about-me-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 100%;
+    text-align: center;
+    overflow: auto; 
   }
-  .line {
-    flex: 1;
-    height: 1px;
-    background-color: #000;
+  .about-me-container hr {
+    display: inline-block;
+    width: 30%; 
+    vertical-align: middle;
+    margin: 0 10px; 
+    border: 1px solid var(--color-primary); 
   }
   .about-me-text {
-    margin: 0 10px;
-    white-space: nowrap;
+    display: inline-block;
+    position: relative;
+    padding: 0 10px;
+    font-size: 36px;
+    line-height: 43.57px;
+    font-weight: var(--font-weight-lg);
+    color: var(--color-primary);
   }
