@@ -210,7 +210,7 @@ nav img {
 .contact-section {
     max-width: 1440px;
 
-    text-align: center;
+    /* text-align: center; */
     margin: 0 auto;
 }
 
@@ -221,31 +221,45 @@ nav img {
 
 .contact-box {
     max-width: 550px;
+    text-align: center;
+
     margin: 0 auto;
 }
 
 .msg-btn {
-   
+
     background-color: #fff;
     padding: 8px 10px 8px 10px;
     border-radius: 5px;
-    border: 1px solid  #C4C4C4;
+    border: 1px solid #C4C4C4;
     margin-top: 120px;
-   margin-bottom: 160px;
-   cursor: pointer;
-   line-height: 19px;
-   font-size: 16px;
-   font-weight: var(--font-weight-lg);
+    margin-bottom: 50px;
+    cursor: pointer;
+    line-height: 19px;
+    font-size: 16px;
+    font-weight: var(--font-weight-lg);
 }
-.msg-btn:hover{
-    background-color: #131f35;
+
+.msg-btn:hover {
+    background-color: #254580;
     color: #fff;
 }
+
 .contact-icon {
     width: 21.6px;
     height: 24px;
     display: flex;
     gap: 20px;
-   justify-content: center;
-  margin: 0 auto;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+footer {
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #C4C4C4;
+    text-align: center;
+    padding: 20px 10px 20px 10px;
+    
 }
