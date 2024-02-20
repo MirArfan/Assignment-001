@@ -10,8 +10,8 @@ msg_btn.addEventListener("click", function () {
     form_div.style.display = "flex";
     form_div.style.justifyContent = "center";
     form_div.style.alignItems = "center";
-    form_div.style.maxWidth = "60vh";
-    form_div.style.height = "40vh";
+    form_div.style.maxWidth = "1440px";
+    // form_div.style.height = "40vh";
     form_div.style.margin = "0 auto";
     form_div.style.width = "100vh";
     form_div.style.padding = "20px";
