@@ -100,7 +100,8 @@ nav img {
 
 .resume-button:hover,
 .hireme-button:hover {
-    background-color: #f8eded;
+    background-color: #6763e2;
+    color: #fff;
 }
 
 .hero-section {
@@ -245,13 +246,13 @@ nav img {
 }
 
 .contact-icon {
-    width: 21.6px;
-    height: 24px;
+ 
     display: flex;
     gap: 20px;
     justify-content: center;
     margin: 0 auto;
     margin-bottom: 20px;
+    font-size: 32px;
 }
 
 footer {
