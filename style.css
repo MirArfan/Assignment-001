@@ -71,6 +71,22 @@ nav img {
     gap: 30px;
 
 }
+.nav-list li a{
+    position: relative;
+}
+.nav-list li a::after{
+   content: '';
+   width: 0;
+   height: 3px;
+   background: #276bbd;
+   position: absolute;
+   left: 0;
+   bottom: -6px;
+   transition: .5s;
+}
+.nav-list li a:hover::after{
+    width: 100%;
+}
 
 .nav-btn {
     display: flex;
