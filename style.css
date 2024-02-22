@@ -14,7 +14,7 @@
 
     /* font-weight */
     --font-weight-lg: 400;
-
+     
 
 }
 
@@ -66,14 +66,19 @@ nav img {
     display: flex;
     list-style-type: none;
     justify-content: space-between;
-    padding: 20px;
+    padding: 12px;
     align-items: center;
     gap: 30px;
 
 }
 .nav-list li a{
+    /* padding: 8px 8px; */
+    /* border-radius: 5px; */
     position: relative;
 }
+/* .nav-list li a:hover{
+    background-color: #f0f0f0;
+} */
 .nav-list li a::after{
    content: '';
    width: 0;
@@ -86,6 +91,7 @@ nav img {
 }
 .nav-list li a:hover::after{
     width: 100%;
+    
 }
 
 .nav-btn {
@@ -271,6 +277,11 @@ nav img {
     font-size: 32px;
 }
 
+.form-submit-btn:hover::after{
+    background-color: #16365e;
+}
+
+
 footer {
     max-width: 1440px;
     margin: 0 auto;
@@ -278,4 +289,53 @@ footer {
     text-align: center;
     padding: 20px 10px 20px 10px;
     
+}
+
+/* ..........sidebar...... */
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 320px;
+    width: 250px;
+    z-index: 999;
+    background-color: rgba(154, 180, 207, 0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+}
+.sidebar li{
+    width: 100%;
+    padding: 12px 0;
+    font-size: 22px;
+    text-align: center;
+}
+/* .sidebar li a{
+   
+    margin-top: 20px;
+} */
+.fa-bars{
+    font-size: 32px;
+    cursor: pointer;
+}
+.fa-xmark{
+    font-size: 42px;
+    cursor: pointer;
+    
+    margin: 0 auto;
+    padding: 20px 10px;
+    
+}
+/* .sidebar li a:hover{
+    background-color: #fffdfd;
+} */
+
+.fa-list{
+    font-size: 30px;
+    cursor: pointer;
 }

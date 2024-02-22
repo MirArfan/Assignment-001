@@ -27,7 +27,7 @@ msg_btn.addEventListener("click", function () {
     <input type="email" id="email" name="email" required style="width: 400px; padding: 8px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 3px; box-sizing: border-box;"><br>
     <label for="message">Message:</label><br>
     <textarea id="message" name="message" placeholder="Optional" style="width: 400px; padding: 8px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 3px; box-sizing: border-box;"></textarea><br>
-    <button type="submit" style="width: 100px; padding: 10px; border: none; border-radius: 3px; background-color: #007bff; color: #fff; cursor: pointer;">Submit</button>
+    <button class="form-submit-btn" type="submit" style="width: 100px; padding: 10px; border: none; border-radius: 3px; background-color: #007bff; color: #fff; cursor: pointer;">Submit</button>
 </form>
     `;
 
@@ -51,3 +51,36 @@ msg_btn.addEventListener("click", function () {
         formVisible = false;
     }
 });
+
+
+const menu_bar=document.getElementById('menu-icon');
+menu_bar.addEventListener('click', function(e){
+    console.log("clicked");
+    const sidebar=document.querySelector('.sidebar');
+    sidebar.style.display='flex'
+})
+const hide_sidebar=document.getElementById('hide-sidebar');
+
+hide_sidebar.addEventListener('click', function()
+{
+    const sidebar=document.querySelector('.sidebar');
+    sidebar.style.display='none'
+})
+
+
+let show=true;
+const hide_show_btn=document.getElementById('hide-show-btn');
+hide_show_btn.addEventListener('click', function()
+{
+    const nav_list=document.getElementById('nav-list');
+   if(show)
+   {
+     nav_list.style.display='none';
+     show=false;
+   }
+   else{
+    nav_list.style.display='flex';
+    show=true;
+   }
+
+})
