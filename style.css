@@ -138,9 +138,8 @@ nav img {
 
 }
 
-.arrow img {
-    height: 32px;
-    width: 32px;
+.fa-angles-down{
+   font-size: 32px;
 }
 
 
@@ -258,7 +257,7 @@ nav img {
 footer {
     max-width: 1440px;
     margin: 0 auto;
-    background-color: #C4C4C4;
+    background-color: #F2F2F2;
     text-align: center;
     padding: 20px 10px 20px 10px;
     
