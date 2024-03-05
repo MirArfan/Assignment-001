@@ -360,28 +360,31 @@ footer {
     background-color: rgb(255, 255, 255);
 
     margin: 0 auto;
- 
+
     align-items: center;
     padding: 120px 0px;
 
 }
 
+
 .experience-heading {
     display: flex;
-  
+
     align-items: center;
     width: 930px;
     gap: 22px;
-   
+
 
 }
+
 
 .experience-heading hr {
     width: 100%;
     height: 1px;
     background-color: #000;
-  
+
 }
+
 
 .experiencce-text {
 
@@ -390,76 +393,216 @@ footer {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+
 }
-.experience-card-1{
+
+.experience-card-1 {
     display: flex;
     flex-direction: row;
     gap: 26px;
     margin-bottom: 50px;
     /* max-width: 930px; */
 }
-.experience-details ul li{
+
+.experience-details ul li {
     list-style-type: disc;
     font-family: Inter;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 170%;
-color: #1f1f1f;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%;
+    color: #1f1f1f;
 }
-.hr-line-horizontally{
+
+.hr-line-horizontally {
     width: 1px;
     height: 174px;
 
     background-color: #000;
- 
+
 }
-.experience-summary
-{
+
+.experience-summary {
     width: 196px;
     display: flex;
-flex-direction: column;
+    flex-direction: column;
 
-align-items: flex-end;
-gap: 12px;
+    align-items: flex-end;
+    gap: 12px;
 
 }
-.experience-summary hr{
+
+.experience-summary hr {
     width: 100%;
 }
-.experience-summary h1{
+
+.experience-summary h1 {
     font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
-.experience-summary h4{
+
+.experience-summary h4 {
     font-family: Inter;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
-.experience-summary p{
+
+.experience-summary p {
     font-family: Inter;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 170%; 
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%;
 }
-.experience-details{
-    
+
+.experience-details {
+
     /* padding-left: 26px;
     padding-right: 26px; */
     width: 682px;
 }
 
-.experience-card-2{
+.experience-card-2 {
     display: flex;
     flex-direction: row;
     gap: 26px;
 }
-.experiencce-summary-2{
+
+.experiencce-summary-2 {
     align-items: flex-start;
+}
+
+
+
+/* ...////.....project section .....///// */
+
+
+.project-section {
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--light-grey, #F2F2F2);
+
+    padding: 120px 255px;
+    /* flex-direction: column; */
+    /* align-items: flex-start; */
+    gap: 100px;
+    margin: 0 auto;
+}
+
+.featured-project-heading {
+    display: flex;
+
+    align-items: center;
+    width: 930px;
+    gap: 22px;
+    margin-bottom: 50px;
+
+
+}
+
+.featured-project-heading hr {
+    width: 100%;
+    height: 1px;
+    background-color: #1F1F1F;
+
+}
+
+.featured-project-text {
+
+    color: #1F1F1F;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 100%;
+}
+
+.project-picture img {
+    width: 455px;
+    height: 249px;
+}
+
+.Featured-Project-card {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.frame1 h1 {
+    color: var(--black-88, #1F1F1F);
+   
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 8px;
+}
+
+.frame1 p {
+    color: var(--black-88, #1F1F1F);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%;
+    margin-bottom: 12px;
+ 
+}
+
+.technology-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+    margin-top: 12px;
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.icon-container i {
+    width: 14.4px;
+    height: 16px;
+}
+.frame1 hr{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.featured-card{
+    margin-bottom: 67px;
+}
+.featured-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.frame2-de{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.featured-detaits-design{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.frame1-design{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.featured-detaits-design hr{
+    width: 100%;
 }
